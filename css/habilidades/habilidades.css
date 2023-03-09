@@ -1,0 +1,33 @@
+.habilidades{
+    display: none;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.habilidades__titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: azure;
+}
+
+.habilidades__lista__item{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 2rem;
+    color: azure;
+    text-align: center;
+}
+
+@media screen and (max-width:599px){
+    .habilidades{
+        margin: .2rem;
+    }
+    .habilidades__titulo{
+        font-size: 20px;
+    }
+
+    .habilidades__lista__item{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,36 @@
+.informacion{
+    display: flex;
+    justify-content: center;
+}
+
+.informacion__datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.informacion__titulo{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 5rem;
+    color: azure;
+}
+
+.informacion_lista__item{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 2rem;
+    color: azure;
+}
+
+@media screen and (max-width:599px){
+    .informacion__titulo{
+        font-size: 20px;
+    }
+    
+    .informacion_lista__item{
+        font-size: 14px;
+    }
+}

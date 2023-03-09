@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Generado</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/base/base.css">
+    <link rel="stylesheet" href="css/header/header.css">
+    <link rel="stylesheet" href="css/informacion/informacion.css">
+    <link rel="stylesheet" href="css/educacion/educacion.css">
+    <link rel="stylesheet" href="css/experiencia/experiencia.css">
+    <link rel="stylesheet" href="css/habilidades/habilidades.css">
+    <link rel="stylesheet" href="css/contacto/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <header>
+            <h1 class="header__titulo">ANNE JIMENEZ</h1>
+            <h3 class="header__subTitulo">Analista de sistemas</h3>
+        </header>
+        <div class="menu">
+            <nav>
+                <ul class="menu__lista">
+                    <li class="menu__lista__item"><a href="#informacion" onclick="aparece('informacion')" id="a"><i class="fa-solid fa-circle-info"></i>Informacion</a></li>
+                    <li class="menu__lista__item"><a href="#educacion" onclick="aparece('educacion')" id="b"><i class="fa-solid fa-user-graduate"></i></i>Educacion</a></li>
+                    <li class="menu__lista__item"><a href="#experiencia" onclick="aparece('experiencia')" id="c"><i class="fa-solid fa-briefcase"></i>Experiencia</a></li>
+                    <li class="menu__lista__item"><a href="#habilidades" onclick="aparece('habilidades')" id="d"><i class="fa-solid fa-laptop-file"></i>Habilidades</a></li>
+                    <li class="menu__lista__item"><a href="#contacto" onclick="aparece('contacto')" id="e"><i class="fa-solid fa-address-book"></i>Contacto</a></li>
+                </ul>    
+            </nav>
+        </div>
+    </section>
+    <div class="contenedor">
+        <div class="aparece">
+            <section class="informacion" id="informacion">
+                <div class="informacion__datos">
+                <h3 class="informacion__titulo">Informacion</h3>
+                    <div>
+                        <ul class="informacion_lista">
+                            <li class="informacion_lista__item">Nombre: Anne Jimenez</li>
+                            <li class="informacion_lista__item">Fecha De Nacimiento: 3/5/1981</li>
+                            <li class="informacion_lista__item">Email: anne.jimenez@example.com</li>
+                            <li class="informacion_lista__item">Direccion: 873 Homestead Rd</li>
+                            <li class="informacion_lista__item">Telefono: (293) 304-0877</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="educacion" id="educacion">
+                <h3 class="educacion_titulo">Educacion</h3>
+                <div class="educacion_info">
+                    <h4>Instituto que corresponda</h4>
+                    <p class="educacion_parrafo">-Certificado de Posgrado | Febrero 2018 – Enero 2019 </p>
+                    <p class="educacion_parrafo">-Certificado en Ingeniería de Procesos Empresariales</p>
+                    <p class="educacion_parrafo">-Adquisición de conocimientos sobre optimización de sistemas y procesos tecnológicos</p>
+                    <h4>Universidad que corresponda</h4>
+                    <p class="educacion_parrafo">Licenciatura en ciencias | Junio 2011 – Junio 2015</p>
+                    <p class="educacion_parrafo">Licenciatura en ingeniería Informática </p>
+                    <p class="educacion_parrafo">-Especializacion en Sistemas Empresariales</p>
+                    <p class="educacion_parrafo">-Especializacion en Sistemas Empresariales</p>
+                    <p class="educacion_parrafo">-Becario</p>
+                </div>
+                
+            </section>
+
+            <section class="experiencia" id="experiencia">
+                <h3 class="experiencia__titulo">Análisis de sistemas</h3>
+                <h4>Dowblooms S. A. | Junio 2018 – actualidad</h4>
+                <p class="experiencia__parrafo">-Examen de los sistemas de organización</p>
+                <p class="experiencia__parrafo">-Traducción de requisitos empresariales en diseño funcionales</p>
+                <p class="experiencia__parrafo">-Capacitación de software para personal y usuarios</p>
+                <h3 class="experiencia__titulo">Análisis de datos senior</h3>
+                <h4>Estudio Luna | Abril 2017 – Mayo 2018</h4>
+                <p class="experiencia__parrafo">-Recopilación y análisis de datos con distintos programas</p>
+                <p class="experiencia__parrafo">-Resolución de problemas de software</p>
+                <p class="experiencia__parrafo">-Aplicación de Técnicas estadisticas para diagnosticar problemas comerciales</p>
+            </section>
+
+            <section class="habilidades" id="habilidades">
+                <h3 class="habilidades__titulo">Habilidades</h3>
+                <div class="habilidades_general">
+                    <ul class="habilidades__lista"> 
+                        <li class="habilidades__lista__item">Desarrollo de software básico</li>
+                        <li class="habilidades__lista__item">Documentación de proyecto</li>
+                        <li class="habilidades__lista__item">Análisis de modelos de negocios</li>
+                        <li class="habilidades__lista__item">Resolución de problemas</li>
+                        <li class="habilidades__lista__item">Control de calidad</li>
+                        <li class="habilidades__lista__item">Pensamiento creativo</li>
+                        <li class="habilidades__lista__item">Investigación y capacitación de usuarios</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="contacto" id="contacto">
+                <div class="contacto__img">
+                    <i class="fa-solid fa-address-card"></i>
+                </div>
+                <div class="contacto__formulario">
+                    <form action="">
+                        <div class="input__box">
+                            <label for="nombre">Nombre:</label>
+                            <input class="input" type="text" name="nombre" id="nombre" placeholder="Nombre" class="input" required>
+                        </div>
+                        <div class="input__box">
+                            <label for="email">Email:</label>
+                            <input class="input" type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com" class="input" required>
+                        </div>
+                        <div class="input__box">
+                            <label for="asunto">Asunto:</label>
+                            <input type="text" name="asunto" id="asunto" placeholder="asunto" class="input">
+                        </div>
+                        <div class="input__box">
+                            <textarea class="input" cols="37" rows="4"></textarea>
+                        </div>
+                        <div class="input__box">
+                            <button class="btn-enviar" id="btn-enviar">
+                                <span>Enviar</span>
+                                <svg>
+                                    <rect x="0" y="0" fill="none"></rect>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section> 
+        </div>
+
+        <div class="imagen">
+            <img class="imagen_perfil" src="imagenes/2f453160ae5ab8e400db86a818c15518.jpg" alt="foto de perfil">
+            <div class="imagen__resumen">
+                <p>Soy analista de sistemas, orientado hacia los resultados y con excelentes dotes comunicativas. También cuento con vastos conocimientos en sistemas digitales y procesos de cadena de suministro.</p>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
